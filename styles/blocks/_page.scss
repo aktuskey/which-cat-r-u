@@ -1,0 +1,9 @@
+.page {
+
+  &__heading-h1 {
+    color: $color__magenta;
+    font-family: $font__family--bold;
+    font-size: 48px;
+    text-align: center;
+  }
+}
