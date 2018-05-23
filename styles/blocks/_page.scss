@@ -10,4 +10,11 @@
   &__link {
     color: $color__purple;
   }
+
+  &__heading-h2 {
+    font-family: $font__family--bold;
+    text-align: center;
+    font-size: 24px;
+    color: $color__violet;
+  }
 }
