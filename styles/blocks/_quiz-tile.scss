@@ -1,0 +1,15 @@
+.quiz-tile {
+  background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    width: 25%;
+
+  &__img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position-y: -50px;
+    -webkit-filter: hue-rotate(100deg);
+    filter: hue-rotate(100deg);
+  }
+}
