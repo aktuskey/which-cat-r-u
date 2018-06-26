@@ -12,7 +12,7 @@ main =
         , p [ class "body" ] [ text "Select a quiz to begin!" ]
         , ourLink "http://www.google.com" "Click Me!!"
         , ourLink "http://www.thedodo.com" "More Cute Cats!"
-        , quiz "http://www.google.com" "Which Cat Are You?"
+        , div [ class "quiz-tiles" ] [ quiz "http://www.google.com" "Which flower crown matches your purrsonality?" ]
         , footer "© 2018. Plz don't steal." "https://twitter.com/LaserTuskey" "http://www.elm-lang.org" "https://www.ruby-lang.org/en/"
         ]
 
@@ -25,7 +25,15 @@ ourLink url label =
 quiz quizUrl quizTitle =
     div [ class "quiz-tile" ]
         [ a [ href quizUrl ]
-            [ div [ class "quiz-tile__img", style [ ( "background-image", "url(images/flower-kitten.jpg)" ) ] ] []
+            [ div
+                [ class "quiz-tile__img"
+                , style
+                    [ ( "background-image"
+                      , "url(images/flower-kitten.jpg)"
+                      )
+                    ]
+                ]
+                []
             , h3 [ class "quiz-tile__title" ] [ text quizTitle ]
             ]
         ]

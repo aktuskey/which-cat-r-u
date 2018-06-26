@@ -4,10 +4,11 @@
     background-color: $color__sky-blue;
     background-image: linear-gradient(180deg, $color__sky-blue 0%, $color__light-pink 100%);
     background-size: cover;
+    padding: 0 130px;
   }
 
   &__heading-h1 {
-    color: $color__magenta;
+    color: $color__purple;
     font-family: $font__family--bold;
     font-size: 48px;
     text-align: center;
@@ -21,6 +22,6 @@
     font-family: $font__family--bold;
     text-align: center;
     font-size: 24px;
-    color: $color__violet;
+    color: $color__purple;
   }
 }

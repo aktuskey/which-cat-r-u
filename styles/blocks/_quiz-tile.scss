@@ -1,8 +1,10 @@
 .quiz-tile {
-  background-color: white;
-    padding: 10px;
-    border-radius: 4px;
-    width: 25%;
+  background-color: $color__white;
+  padding: 20px;
+  border-radius: 6px;
+  width: calc(100% / 3 - 50px);
+  margin-bottom: 15px;
+  box-shadow: 0px 2px 8px 0px rgba(0,0,0,.30);
 
   &__img {
     background-size: cover;
@@ -12,4 +14,23 @@
     -webkit-filter: hue-rotate(100deg);
     filter: hue-rotate(100deg);
   }
+
+  &__title {
+    text-align: center;
+    font-family: $font__family--bold;
+    color: $color__purple;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+
+    &:hover {
+      color: $color__light-purple;
+    }
+  }
+}
+
+.quiz-tiles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
