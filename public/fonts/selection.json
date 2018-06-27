@@ -1,0 +1,86 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M620.251 359.863l-295.497-263.314-275.017 245.76-40.96-40.96 315.977-280.869 295.497 263.314 298.423-263.314 327.68 277.943-35.109 46.811-292.571-248.686z",
+          "M620.251 681.691l-295.497-263.314-275.017 245.76-40.96-40.96 315.977-280.869 295.497 263.314 298.423-263.314 327.68 277.943-35.109 46.811-292.571-248.686z",
+          "M620.251 1003.52l-295.497-263.314-275.017 245.76-40.96-40.96 315.977-280.869 295.497 263.314 298.423-263.314 327.68 277.943-35.109 46.811-292.571-248.686z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(255, 0, 167)"
+          },
+          {
+            "fill": "rgb(255, 0, 167)"
+          },
+          {
+            "fill": "rgb(255, 0, 167)"
+          }
+        ],
+        "width": 1258,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "cheezburger"
+        ]
+      },
+      "attrs": [
+        {
+          "fill": "rgb(255, 0, 167)"
+        },
+        {
+          "fill": "rgb(255, 0, 167)"
+        },
+        {
+          "fill": "rgb(255, 0, 167)"
+        }
+      ],
+      "properties": {
+        "order": 3,
+        "id": 1,
+        "name": "cheezburger",
+        "prevSize": 32,
+        "code": 59648
+      },
+      "setIdx": 0,
+      "setId": 3,
+      "iconIdx": 0
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icomoon"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}

@@ -9,19 +9,18 @@
 
   &__heading-h1 {
     color: $color__purple;
-    font-family: $font__family--bold;
+    font-family: $font__family--serif;
     font-size: 48px;
-    text-align: center;
   }
 
   &__link {
     color: $color__purple;
   }
 
-  &__heading-h2 {
-    font-family: $font__family--bold;
-    text-align: center;
-    font-size: 24px;
+  &__heading-h3 {
+    font-family: $font__family--sans;
+    font-weight: 700;
+    font-size: 22px;
     color: $color__purple;
   }
 }

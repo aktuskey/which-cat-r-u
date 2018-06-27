@@ -1,0 +1,51 @@
+html,
+body {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  height: 100%;
+  margin: 0;
+}
+
+input,
+button,
+a,
+select {
+  &:focus {
+    outline: none;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+div,
+section {
+  box-sizing: border-box;
+}
+
+// sass-lint:disable no-vendor-prefixes
+button {
+  -webkit-appearance: none;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  color: inherit;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+}
+
+// sass-lint:disable no-vendor-prefixes
+select,
+input {
+  -webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+img {
+  max-width: 100%;
+}
