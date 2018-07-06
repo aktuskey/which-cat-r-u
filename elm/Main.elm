@@ -64,7 +64,10 @@ navbar title subtitle menuIconUrl =
             , h3 [ class "page__heading-h3" ] [ text subtitle ]
             ]
         , div [ class "navbar__icons" ]
-            [ button [ class "icon icon__cheezburger navbar__menu" ] []
+            [ button [ class "icon icon__cheezburger navbar__menu" ]
+                [ div [ class "navbar__label-box" ]
+                    [ div [ class "navbar__label" ] [ text "meow!" ] ]
+                ]
             ]
         ]
 

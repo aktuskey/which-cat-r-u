@@ -26,12 +26,12 @@
 }
 
 .icon {
-  &::after {
+  &::before {
     @include icon;
   }
 }
 .icon__cheezburger {
-  &::after {
+  &::before {
     content: $icon__cheezburger;
   }
 }
