@@ -8,7 +8,7 @@
     "server": "ruby app.rb",
     "build:sass": "node-sass ./styles/main.scss -o ./public",
     "watch:sass": "chokidar './styles/**/*' -c 'npm run build:sass'",
-    "build:elm": "elm-make --yes --output public/app.js ./elm/Main.elm",
+    "build:elm": "elm-make --yes --output public/main.js ./elm/Main.elm && elm-make --yes --output public/about.js ./elm/About.elm",
     "watch:elm": "chokidar './elm/**/*.elm' -c 'npm run build:elm'",
     "watch": "npm run watch:sass & npm run watch:elm",
     "dev": "npm run watch & npm run server"
